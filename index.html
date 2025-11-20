@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Moë портфолио</title>
+    <style>
+    body {
+    background-color: lightgray;
+    font-family: Arial;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    }
+    h1 {
+    text-align: center;
+    }
+    .section {
+    margin: 20px 0;
+    }
+    </style>
+</head>
+<body>
+    <h1>Moë портфолио</h1>
+    <div class="section">
+        <h2>Обо Мне</h2>
+        <p>Меня зовут саша, я учусь в МГУ им. Н.Грева!!!</p>
+    </div>
+
+    <div class="section">
+        <h2>Мои увлечения</h2>
+        <ul>
+            <li>JavaScript</li>
+            <li>Спорт</li>
+            <li>автоспорт</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Мои цели</h2>
+        <ol>
+            <li>Изучить JavaScript</li>
+            <li>Создать проекты <a href="index1.html" target="_blank"><br><img src='cc.png' alt='' width='120' title></a></li>
+            <li>Почилить</li>
+        </ol>
+    </div>
+
+    <div class="section">
+        <h2>Ссылки</h2>
+        <p>почитайте про новый jz:
+        <a href="https://daily-motor.ru/autonews/150208" target="_blank"><br><img src='motor.jpg' alt='' width='200' title></a>
+        </p>
+    </div>
+
+    <script>
+    function show_image(src, width, height, alt) {
+        let img = document.createElement("img");
+        img.src = src;
+        img.width = width;
+        img.height = height;
+        img.alt = alt;
+        document.body.appendChild(img);
+    }
+
+    </script>
+</body>
+</html>
